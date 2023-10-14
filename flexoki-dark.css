@@ -1,216 +1,224 @@
 :root {
-    --theme-style: dark;
+  --theme-style: dark;
 
-    --main-font-family: 'Latin Modern Sans', 'Noto Sans';
-    --main-font-size: normal;
+  --main-font-family: 'Latin Modern Sans', 'Noto Sans';
+  --main-font-size: normal;
 
-    --tree-font-family: Noto Sans;
-    --tree-font-size: normal;
+  --tree-font-family: Noto Sans;
+  --tree-font-size: normal;
 
-    --detail-font-family: Noto Sans;
-    --detail-font-size: normal;
+  --detail-font-family: Noto Sans;
+  --detail-font-size: normal;
 
-    --monospace-font-family: 'Iosevka', 'Courier New', Courier;
-    --monospace-font-size: normal;
+  --monospace-font-family: 'Iosevka', 'Courier New', Courier;
+  --monospace-font-size: normal;
 
-    
-    --bg: #100F0F;
-    --bg2: #1C1B1A;
-    --tx1: #CECDC3;
-    --tx2: #878580;
-    --tx3: #575653;
-    --ui1: #282726;
-    --ui2: #343331;
-    --ui3: #403E3C;
-   
-    --red: #ff0000;
-    
-    --re2: #AF3029;
-    --or2: #DA702C;
-    --ye2: #D0A215;
-    --gr2: #879A39;
-    --cy2: #3AA99F;
-    --bl2: #205EA6;
-    --pu2: #8B7EC8;
-    --ma2: #CE5D97;
-    
-    
-    --main-background-color:var(--bg) ;
-    --main-text-color: var(--tx1);
-    --main-border-color: var(--ui2); /*pop-up border*/
+  
+  --bg: #100F0F;
+  --bg2: #1C1B1A;
+  --tx1: #CECDC3;
+  --tx2: #878580;
+  --tx3: #575653;
+  --ui1: #282726;
+  --ui2: #343331;
+  --ui3: #403E3C;
+ 
+  --red: #ff0000;
+  
+  --re2: #AF3029;
+  --or2: #DA702C;
+  --ye2: #D0A215;
+  --gr2: #879A39;
+  --cy2: #3AA99F;
+  --bl2: #205EA6;
+  --pu2: #8B7EC8;
+  --ma2: #CE5D97;
+  
+  
+  --main-background-color:var(--bg) ;
+  --main-text-color: var(--tx1);
+  --main-border-color: var(--ui2); /*pop-up border*/
 
-    --accented-background-color: var(--bg2);
-    --more-accented-background-color: var(--ui2);
+  --accented-background-color: var(--bg2);
+  --more-accented-background-color: var(--ui2);
 
-    --button-background-color: transparent;
-    --button-border-color: var(--ui2);
-    --button-text-color: var(--tx1);
-    --button-border-radius: 3px;
-    --button-disabled-background-color: transparent;
-    --button-disabled-text-color: var(--tx2);
+  --button-background-color: transparent;
+  --button-border-color: var(--ui2);
+  --button-text-color: var(--tx1);
+  --button-border-radius: 3px;
+  --button-disabled-background-color: transparent;
+  --button-disabled-text-color: var(--tx2);
 
-    --primary-button-background-color: var(--ui2);
-    --primary-button-text-color: var(--tx1);
-    --primary-button-border-color: transparent;
+  --primary-button-background-color: var(--ui2);
+  --primary-button-text-color: var(--tx1);
+  --primary-button-border-color: transparent;
 
-    --muted-text-color: var(--tx2);
+  --muted-text-color: var(--tx2);
 
-    --input-text-color: var(--tx1);
-    --input-background-color: var(--ui1);
+  --input-text-color: var(--tx1);
+  --input-background-color: var(--ui1);
 
-    --hover-item-text-color: var(--tx1);
-    --hover-item-background-color: transparent;
-    --hover-item-border-color: var(--ui1);
+  --hover-item-text-color: var(--tx1);
+  --hover-item-background-color: transparent;
+  --hover-item-border-color: var(--ui1);
 
-    --active-item-text-color: var(--tx1);
-    --active-item-background-color: transparent;
-    --active-item-border-color: transparent;
+  --active-item-text-color: var(--tx1);
+  --active-item-background-color: transparent;
+  --active-item-border-color: transparent;
 
-    --menu-text-color: var(--tx1);
-    --menu-background-color: var(--ui1);
+  --menu-text-color: var(--tx1);
+  --menu-background-color: var(--ui1);
 
-    --modal-background-color: var(--ui1);
-    --modal-backdrop-color: var(--ui2);
+  --modal-background-color: var(--ui1);
+  --modal-backdrop-color: var(--ui2);
 
-    --left-pane-background-color: var(--bg2);
-    --left-pane-text-color: var(--tx2);
+  --left-pane-background-color: var(--bg2);
+  --left-pane-text-color: var(--tx2);
 
-    --launcher-pane-background-color: var(--bg2);
-    --launcher-pane-text-color: var(--tx2); /*launcher pane icons*/
+  --launcher-pane-background-color: var(--bg2);
+  --launcher-pane-text-color: var(--tx2); /*launcher pane icons*/
 
-    --active-tab-background-color: var(--bg2);
-    --active-tab-hover-background-color: var(--bg2);
-    --active-tab-text-color: var(--tx1);
+  --active-tab-background-color: var(--bg2);
+  --active-tab-hover-background-color: var(--bg2);
+  --active-tab-text-color: var(--tx1);
 
-    --inactive-tab-background-color: var(--ui1);
-    --inactive-tab-hover-background-color: var(--ui2);
-    --inactive-tab-text-color: var(--tx2);
+  --inactive-tab-background-color: var(--ui1);
+  --inactive-tab-hover-background-color: var(--ui2);
+  --inactive-tab-text-color: var(--tx2);
 
-    --scrollbar-border-color: var(--ui2);
-    --tooltip-background-color: var(--ui1);
-    --link-color: var(--bl2);
+  --scrollbar-border-color: var(--ui2);
+  --tooltip-background-color: var(--ui1);
+  --link-color: var(--bl2);
 
-    --mermaid-theme: dark;
-    --ck-color-code-block-label-background: var(--ui1);
+  --mermaid-theme: dark;
+  --ck-color-code-block-label-background: var(--ui1);
 }
 
 body ::-webkit-calendar-picker-indicator {
-    filter: invert(1);
+  filter: invert(1);
 }
 
 body .CodeMirror {
-    filter: invert(90%) hue-rotate(180deg);
+  filter: invert(90%) hue-rotate(180deg);
 }
 
 .excalidraw.theme--dark {
-    --theme-filter: invert(80%) hue-rotate(180deg) !important;
+  --theme-filter: invert(80%) hue-rotate(180deg) !important;
 }
 
 .gutter {
-    width: 5px !important;
-    background: var(--bg) !important;
+  width: 5px !important;
+  background: var(--bg) !important;
 }
 
 span.fancytree-custom-icon {
-  color: var(--ui3) !important;
-  background: none;
+color: var(--ui3) !important;
+background: none;
 }
 
 .tree-actions {
-  background-color: var(--bg2) !important;
+background-color: var(--bg2) !important;
 }
 
 span.fancytree-active .fancytree-title {
-  font-weight: normal !important; 
+font-weight: normal !important; 
 }
 
 span.fancytree-active {
-  border: 0px !important;
-  background-color: var(--ui1) !important;
+border: 0px !important;
+background-color: var(--ui1) !important;
 }
 
 .tab-row-widget .note-tab .note-tab-wrapper {
-  border-radius: 0px !important;
+border-radius: 3px !important;
 }
 
 
 .tab-row-widget .note-tab[active] .note-tab-wrapper {
-  font-weight: normal !important;
-  border-radius: 0px !important;
+font-weight: normal !important;
+border-radius: 3px !important;
 }
 
 .note-book-card {
-  border-radius: 0px !important;
-  background-color: var(--bg2) !important;
+border-radius: 3px !important;
+background-color: var(--bg2) !important;
 }
 
 button.tree-floating-button:hover {
-  border: 0px transparent !important;
-  background-color: var(--ui1) !important;
+border: 0px transparent !important;
+background-color: var(--ui1) !important;
 }
 
 button.tree-floating-button {
-    border: 0px transparent !important;
+  border: 0px transparent !important;
 }
 .ck-content pre {
-  border: 1px solid #37373D !important;
-  border-radius: 0px !important;
-  background-color: var(--bg2) !important;
+border: 1px solid #37373D !important;
+border-radius: 0px !important;
+background-color: var(--bg2) !important;
 }
 
 div#launcher-pane .global-menu-button {
-  filter: invert(0.5);
+filter: invert(0.5);
 }
 
 div#launcher-pane .global-menu-button:hover {
-  filter: invert(0);
+filter: invert(0);
 }
 
 .fancytree-node {
-    height: 28px !important;
-    border: 0px solid transparent !important;
+  height: 28px !important;
+  border: 0px solid transparent !important;
 }
 
 span.fancytree-node:hover {
-  border: 0px !important;
-  background-color: #525252 !important;
+border: 0px !important;
+background-color: #525252 !important;
 }
 
 #right-pane {
-    background-color: #252526 !important;
+  background-color: #252526 !important;
 }
 
 .dropdown-menu.show {
-    background-color: var(--bg2) !important;
+  background-color: var(--bg2) !important;
 }
 
 .btn-primary.focus, .btn-primary:focus {
-    box-shadow: none 
+  box-shadow: none 
 }
 
 .ribbon-tab-title {
-    color: var(--tx2) !important;
-    border-bottom: 1px solid var(--tx2) !important;
+  color: var(--tx2) !important;
+  border-bottom: 1px solid var(--tx2) !important;
 }
 
 .ribbon-tab-spacer {
-    border-bottom: 1px solid var(--tx2) !important;
+  border-bottom: 1px solid var(--tx2) !important;
 }
 
 .ribbon-button-container .icon-action {
-    color: var(--tx2) !important;
+  color: var(--tx2) !important;
 }
 
 .ribbon-button-container {
-    border-bottom: 1px solid var(--tx2) !important;
+  border-bottom: 1px solid var(--tx2) !important;
 }
 
 .title-row {
-    height: 70px !important;
-    min-height: 70px !important;
-    padding-top: 20px !important;
+  height: 70px !important;
+  min-height: 70px !important;
+  padding-top: 20px !important;
 }
 
 #right-pane .card-header {
-    padding: 8px !important;
+  padding: 8px !important;
+}
+
+.tab-row-widget{
+  padding-left: 5px !important;
+}
+.global-menu-button {
+  background-size: 30px !important;
+  background-position: 50% 50% !important;
 }
